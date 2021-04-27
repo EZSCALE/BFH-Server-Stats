@@ -1,0 +1,2 @@
+[20-Nov-2019 04:50:24 America/Chicago] PHP Warning:  require_once(../constants.php): failed to open stream: No such file or directory in /home2/stovetop/public_html/bloodbrothers/common/player/weapon-tab.php on line 9
+[20-Nov-2019 04:50:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../constants.php' (include_path='.:/opt/php54/lib/php') in /home2/stovetop/public_html/bloodbrothers/common/player/weapon-tab.php on line 9

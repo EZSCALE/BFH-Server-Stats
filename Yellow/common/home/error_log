@@ -1,0 +1,2 @@
+[26-Mar-2015 04:09:54 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/stovetop/public_html/hardline/common/case.php on line 82
+[26-Mar-2015 04:09:54 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home2/stovetop/public_html/hardline/common/case.php on line 93

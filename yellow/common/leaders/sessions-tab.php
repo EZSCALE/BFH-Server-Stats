@@ -4,7 +4,7 @@
 
 // first connect to the database
 // and include necessary files
-require_once('../../config/config.php');
+require_once('../../../config.php');
 require_once('../connect.php');
 require_once('../case.php');
 // default variable to null

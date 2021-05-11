@@ -6,7 +6,7 @@
 require_once("../pchart/class/pData.class.php");
 require_once("../pchart/class/pDraw.class.php");
 require_once("../pchart/class/pImage.class.php");
-require_once('../../config/config.php');
+require_once('../../../config.php');
 require_once('../connect.php');
 require_once('../case.php');
 require_once('../constants.php');

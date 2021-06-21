@@ -11,7 +11,7 @@ if (file_exists(__DIR__ . '/../../../vendor/autoload.php')) {
 
 // DATABASE INFORMATION
 DEFINE('HOST', $_SERVER['DB_HOST']);
-DEFINE('PORT', '3306');
+DEFINE('PORT', $_SERVER['DB_PORT']);
 DEFINE('NAME', $_SERVER['DB_DATABASE']);
 DEFINE('USER', $_SERVER['DB_USERNAME']);
 DEFINE('PASS', $_SERVER['DB_PASSWORD']);

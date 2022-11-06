@@ -1,14 +1,5 @@
 <?php
 
-if (file_exists(__DIR__ . '/../../../vendor/autoload.php')) {
-    require __DIR__ . '/../../../vendor/autoload.php';
-
-    $dotenv = new \Dotenv\Dotenv(__DIR__ . '/../../../');
-    $dotenv->load();
-} else {
-    die('Failed to load');
-}
-
 if (!isset($_SERVER['DB_PORT'])) {
     $_SERVER['DB_PORT'] = 3306;
 }
